@@ -21,6 +21,7 @@ https://image-api-f8qs.onrender.com/upload
 ```
 Use Postman for adding images or any other API service.
 <br/>
+
 <img src="/postman.png"/>
 
 <!-- <br/> -->
