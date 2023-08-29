@@ -3,12 +3,15 @@ const mongoose = require('mongoose');
 const multer = require('multer');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const config = require('./config');
+require('dotenv').config(); // Load environment variables
+
+// git rm -r --cached node_modules
+// http://localhost:3000/image/64e76e4e53ead60703895ba5
+
+// const config = require('./config');
 
 const app = express();
 const port = 3000;
-
-// git rm -r --cached node_modules
 
 // Configure multer for file upload
 const storage = multer.memoryStorage();
@@ -21,7 +24,7 @@ app.use(cors());
 
 
 // Connect to MongoDB
-mongoose.connect(config.mongoURI, {
+mongoose.connect(process.env.mongoURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
