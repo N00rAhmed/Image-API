@@ -1,41 +1,55 @@
 <h2>API Information</h2>
 
 <h3>API Links</h3>
+
 ```
 https://image-api-f8qs.onrender.com
 ```
+
 <br/>
 
 <h3>Upload An Image</h3>
+
 ```
 https://image-api-f8qs.onrender.com/upload
 ```
+
 <br/>
 Use Postman for adding images or any other API service.
 <br/>
 <br/>
 <h3>Search for an Image</h3>
+
 ```
 https://image-api-f8qs.onrender.com/image/id
 ```
+
 <br/>
 <br/>
 <h3>ID's to search through</h3>
+
 ```
 64e76e4e53ead60703895ba5
 ```
+
 <br/>
+
 ```
 64e76f7e6fbe37fb8474d93b
 ```
+
 <br/>
+
 ```
 64edba179a581d5a79deec98
 ```
+
 <br/>
+
 ```
 64edbaab9a581d5a79deec9b
 ```
+
 <br/>
 
 <h3>Install Dependencies</h3>
