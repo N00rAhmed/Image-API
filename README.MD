@@ -74,6 +74,9 @@ In order to deploy the API to onrender with a hidden .env you can follow this tu
 <br/>
 <br/>
 If you have a hidden config.js file or any other named file with the mongodb uri then on render.com when you go on environment, navigate to Secret Files and fill in the details for your config.js file there instead of environment variables:
+
+<br/>
+<br/>
 <img src="/example.png"/>
 <!-- <br /> -->
 <br />
