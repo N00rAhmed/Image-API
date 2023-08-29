@@ -8,8 +8,9 @@ require('dotenv').config(); // Load environment variables
 
 // git rm -r --cached node_modules
 // http://localhost:3000/image/64e76e4e53ead60703895ba5
+// 64e76f7e6fbe37fb8474d93b
 // git rm .env --cached
-
+// git rm filename
 
 // const config = require('./config');
 
