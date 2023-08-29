@@ -81,7 +81,7 @@ If you have a hidden config.js file or any other named file with the mongodb uri
 <!-- <br /> -->
 <br />
 
-Please make sure to setup a MongoDB cluster before you execute this code. Here is an informative tutorial on how you can do this: https://www.youtube.com/watch?v=s0anSjEeua8&ab_channel=TheNetNinja
+Please make sure to setup a MongoDB cluster before you use this API. Here is an informative tutorial on how you can do this: https://www.youtube.com/watch?v=s0anSjEeua8&ab_channel=TheNetNinja
 
 <!-- <br /> -->
 
