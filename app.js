@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const multer = require('multer');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-
+// git rm -r --cached node_modules
 const config = require('./config');
 
 const app = express();
