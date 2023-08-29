@@ -3,10 +3,13 @@ const mongoose = require('mongoose');
 const multer = require('multer');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const config = require('./config');
 require('dotenv').config(); // Load environment variables
 
 // git rm -r --cached node_modules
 // http://localhost:3000/image/64e76e4e53ead60703895ba5
+// git rm .env --cached
+
 
 // const config = require('./config');
 
@@ -24,7 +27,7 @@ app.use(cors());
 
 
 // Connect to MongoDB
-mongoose.connect(process.env.mongoURI, {
+mongoose.connect(config.mongoURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
