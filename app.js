@@ -3,11 +3,12 @@ const mongoose = require('mongoose');
 const multer = require('multer');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-// git rm -r --cached node_modules
 const config = require('./config');
 
 const app = express();
 const port = 3000;
+
+// git rm -r --cached node_modules
 
 // Configure multer for file upload
 const storage = multer.memoryStorage();
