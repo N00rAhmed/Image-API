@@ -1,56 +1,51 @@
 <h2>API Information</h2>
 
+This API can add images and send them to a MongoDB database. Using the ```/image/id``` search param you can search for your images by their ID and have the image rendered infront of you. 
+
+<!-- <br/> -->
+<h6>Tech Stack:</h6>
+Node.js | Express.js | MongoDB/Mongoose
+<br/>
+Postman
+
 <h3>API Links</h3>
 
 ```
 https://image-api-f8qs.onrender.com
 ```
 
-<br/>
-
 <h3>Upload An Image</h3>
 
 ```
 https://image-api-f8qs.onrender.com/upload
 ```
-
-<br/>
 Use Postman for adding images or any other API service.
-<br/>
-<br/>
+<img src="/postman.png"/>
+
+<!-- <br/> -->
 <h3>Search for an Image</h3>
 
 ```
 https://image-api-f8qs.onrender.com/image/id
 ```
 
-<br/>
-<br/>
 <h3>ID's to search through</h3>
 
 ```
 64e76e4e53ead60703895ba5
 ```
 
-<br/>
-
 ```
 64e76f7e6fbe37fb8474d93b
 ```
-
-<br/>
 
 ```
 64edba179a581d5a79deec98
 ```
 
-<br/>
-
 ```
 64edbaab9a581d5a79deec9b
 ```
-
-<br/>
 
 <h3>Install Dependencies</h3>
 
@@ -77,7 +72,7 @@ In order to deploy the API to onrender with a hidden .env you can follow this tu
 <br/>
 <br/>
 If you have a hidden config.js file or any other named file with the mongodb uri then on render.com when you go on environment, navigate to Secret Files and fill in the details for your config.js file there instead of environment variables:
-![Alt text](<Secret Files.png>)
+<img src="/example.png"/>
 <!-- <br /> -->
 <br />
 
