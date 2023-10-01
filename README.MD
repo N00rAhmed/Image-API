@@ -22,7 +22,7 @@ https://image-api-f8qs.onrender.com/upload
 Use Postman for adding images or any other API service.
 <br/>
 
-<img src="/postman.png"/>
+<img src="./images/postman.png"/>
 
 <!-- <br/> -->
 <h3>Search for an Image</h3>
@@ -77,7 +77,7 @@ If you have a hidden config.js file or any other named file with the mongodb uri
 
 <br/>
 <br/>
-<img src="/example.png"/>
+<img src="./images/example.png"/>
 <!-- <br /> -->
 <br />
 
