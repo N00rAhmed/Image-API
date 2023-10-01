@@ -8,6 +8,13 @@ require('dotenv').config(); // Load environment variables
 const app = express();
 const port = 3000;
 
+// git rm -r --cached node_modules
+// http://localhost:3000/image/64e76e4e53ead60703895ba5
+// 64e76f7e6fbe37fb8474d93b
+// git rm .env --cached
+// git rm filename
+
+
 // Middleware
 app.use(bodyParser.json());
 app.use(cors());
