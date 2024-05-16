@@ -3,10 +3,9 @@
 This API can add images and send them to a MongoDB database. Using the ```/image/id``` search param you can search for your images by their ID and have the image rendered infront of you. 
 
 <!-- <br/> -->
-<h6>Tech Stack:</h6>
-Node.js | Express.js | MongoDB/Mongoose
-<br/>
-Postman
+<h3>Tech Stack:</h3>
+Node.js | Express.js | MongoDB/Mongoose | Postman
+
 
 <h3>Article Link</h3>
 Here is an article for more information about the source code: https://noor-ahmed.hashnode.dev/create-and-deploy-image-api
