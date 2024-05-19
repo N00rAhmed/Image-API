@@ -51,7 +51,7 @@ https://image-api-f8qs.onrender.com/image/id
 64edbaab9a581d5a79deec9b
 ```
 
-<h3>Cool Tiktok Sound</h3>
+<h3>Cool Tiktok Sounds</h3>
 
 ```
 664655f27ad5ac4ba5177b85
@@ -63,6 +63,16 @@ https://image-api-f8qs.onrender.com/image/id
 
 ```
 66477d881117960956372a38
+```
+
+<h3>PDF'S</h3>
+
+```
+6649f21da6756d4843d9ddcc
+```
+
+```
+6649f384a6756d4843d9ddcf
 ```
 
 <h3>Install Dependencies</h3>
