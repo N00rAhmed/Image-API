@@ -10,6 +10,17 @@ Node.js | Express.js | MongoDB/Mongoose | Postman
 <h3>Article Link</h3>
 Here is an article for more information about the source code: https://noor-ahmed.hashnode.dev/create-and-deploy-image-api
 
+<h3>TroubleShooting</h3>
+
+When running this application locally you may get this error:
+```
+RangeError: offset is out of boundsat Buffer.set at serializeBinary \lib\bson
+```
+
+This is because the Buffer offset range has a filesize limit when uploading to mongodb. Multer is used to store the file in memory using `multer.memoryStorage()`. This allows us to use Buffer which is used to temporarily store the file in memory(RAM) and handles all the raw binary data from the file. MongoDB uses BSON(binary json) to store data and the maximum size for a single BSON document in MongoDB is 16MB. A workaround to this problem is to use <a href="https://www.mongodb.com/docs/manual/core/gridfs/">GridFS</a> instead of Multer.
+
+GridFS is a MongoDB tool used for storing and retrieving files that are larger than the BSON document size limit(16MB). This is done by seperating a large file into smaller chunks and stores each chunk as a seperate document.
+
 <h3>API Links</h3>
 
 ```
@@ -111,3 +122,12 @@ Please make sure to setup a MongoDB cluster before you use this API. Here is an 
 
 <!-- <br /> -->
 
+
+<h3>Resources</h3>
+
+https://www.npmjs.com/package/multer
+https://adityabverma.hashnode.dev/maximizing-multer-advanced-configuration-and-tips-for-powerful-file-uploads
+https://stackoverflow.com/questions/62129964/how-to-set-buffer-offset-range-in-mongodb-its-not-allowing-to-upload-more-than
+https://www.mongodb.com/docs/manual/core/gridfs/
+https://stackoverflow.com/questions/16482233/store-file-in-mongos-gridfs-with-expressjs-after-upload
+https://www.mongodb.com/docs/drivers/node/current/crud/gridfs/
